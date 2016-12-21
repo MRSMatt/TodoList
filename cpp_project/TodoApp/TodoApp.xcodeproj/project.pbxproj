@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528569071DA73D6A007F6EFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528569061DA73D6A007F6EFE /* main.cpp */; };
+		528569111DA73DEA007F6EFE /* todo_list_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5285690F1DA73DEA007F6EFE /* todo_list_impl.cpp */; };
+		528569141DA73E0C007F6EFE /* libsqlite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 528569131DA73E0C007F6EFE /* libsqlite3.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		528569011DA73D6A007F6EFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		528569031DA73D6A007F6EFE /* TodoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TodoApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		528569061DA73D6A007F6EFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5285690D1DA73DD3007F6EFE /* todo_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = todo_list.hpp; path = "../../../generated-src/cpp/todo_list.hpp"; sourceTree = "<group>"; };
+		5285690E1DA73DD3007F6EFE /* todo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = todo.hpp; path = "../../../generated-src/cpp/todo.hpp"; sourceTree = "<group>"; };
+		5285690F1DA73DEA007F6EFE /* todo_list_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = todo_list_impl.cpp; path = ../../../src/todo_list_impl.cpp; sourceTree = "<group>"; };
+		528569101DA73DEA007F6EFE /* todo_list_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = todo_list_impl.hpp; path = ../../../src/todo_list_impl.hpp; sourceTree = "<group>"; };
+		528569131DA73E0C007F6EFE /* libsqlite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsqlite3.a; path = "../../deps/build/Debug-iphoneos/libsqlite3.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528569001DA73D6A007F6EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528569141DA73E0C007F6EFE /* libsqlite3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528568FA1DA73D6A007F6EFE = {
+			isa = PBXGroup;
+			children = (
+				528569051DA73D6A007F6EFE /* TodoApp */,
+				528569041DA73D6A007F6EFE /* Products */,
+				528569121DA73E0C007F6EFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		528569041DA73D6A007F6EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528569031DA73D6A007F6EFE /* TodoApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528569051DA73D6A007F6EFE /* TodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				5285690F1DA73DEA007F6EFE /* todo_list_impl.cpp */,
+				528569101DA73DEA007F6EFE /* todo_list_impl.hpp */,
+				5285690D1DA73DD3007F6EFE /* todo_list.hpp */,
+				5285690E1DA73DD3007F6EFE /* todo.hpp */,
+				528569061DA73D6A007F6EFE /* main.cpp */,
+			);
+			path = TodoApp;
+			sourceTree = "<group>";
+		};
+		528569121DA73E0C007F6EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				528569131DA73E0C007F6EFE /* libsqlite3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528569021DA73D6A007F6EFE /* TodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5285690A1DA73D6A007F6EFE /* Build configuration list for PBXNativeTarget "TodoApp" */;
+			buildPhases = (
+				528568FF1DA73D6A007F6EFE /* Sources */,
+				528569001DA73D6A007F6EFE /* Frameworks */,
+				528569011DA73D6A007F6EFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoApp;
+			productName = TodoApp;
+			productReference = 528569031DA73D6A007F6EFE /* TodoApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528568FB1DA73D6A007F6EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Matthew Linaberry";
+				TargetAttributes = {
+					528569021DA73D6A007F6EFE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SJHF35TYZ3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 528568FE1DA73D6A007F6EFE /* Build configuration list for PBXProject "TodoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 528568FA1DA73D6A007F6EFE;
+			productRefGroup = 528569041DA73D6A007F6EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528569021DA73D6A007F6EFE /* TodoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528568FF1DA73D6A007F6EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528569071DA73D6A007F6EFE /* main.cpp in Sources */,
+				528569111DA73DEA007F6EFE /* todo_list_impl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		528569081DA73D6A007F6EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		528569091DA73D6A007F6EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5285690B1DA73D6A007F6EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SJHF35TYZ3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5285690C1DA73D6A007F6EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SJHF35TYZ3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528568FE1DA73D6A007F6EFE /* Build configuration list for PBXProject "TodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528569081DA73D6A007F6EFE /* Debug */,
+				528569091DA73D6A007F6EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5285690A1DA73D6A007F6EFE /* Build configuration list for PBXNativeTarget "TodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5285690B1DA73D6A007F6EFE /* Debug */,
+				5285690C1DA73D6A007F6EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528568FB1DA73D6A007F6EFE /* Project object */;
+}
